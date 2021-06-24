@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    background: hsl(0, 11%, 93%);
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}   
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+a{
+    text-decoration: none;
+    color:black;
+}
+.account{
+    flex: 1;
+    text-align: right;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.small-container{
+    min-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.categories{
+    margin: 10px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 360px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    display: inline-block;
+    width: 100%;
+}
+.list {
+    min-height: 42px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.list_menu {
+    padding-left: 0;
+    margin: auto 16px;
+    
+}
+.list-item {
+    color: #fff;
+    list-style: none;
+    margin: 12px ;
+    display: inline-block;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.list-item:hover{
+    color: burlywood;
+}
+.main .left{
+    width: 65%;
+    float: left;
+}
+.main .right{
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+}
+.col-4{
+    width: 100%;
+    
+}
+.left_r{ 
+    width: 20%;
+    float: left;
+    margin-left: 50px;
+}
+.left_img{
+    width: 75%;
+    float: left;
+}
+.left_img img{
+    width: 100%;
+}
+.title1 li{
+    list-style-type: none;
+
+}
+.title1 li a{
+
+    list-style-type: none;
+    background-color: gray;
+}
+.title{
+    padding-left: 160px;
+}
+.title li{
+    list-style-type: none;
+}
+.title li a{
+
+    list-style-type: none;
+    background-color: gray;
+}
+.date{
+    display: flex;
+    margin-left: 50px;
+
+}
+    .date li{
+        list-style-type: none;
+    }
+    .date li b{
+        background-color: gray;
+        
+    }
+.mini{
+    margin-top: 30px;
+}
+.text{
+    width: 50%;
+    float: left;
+}
+.img{
+   width: 50%;
+   float: left;
+}
+
+
